@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins&display=swap');
+
+
+:root{
+    --navlinks: #4F772D;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif ;
+}
+
+nav{
+   
+}
+body{
+ 
+}
+.container{
+    width: 100%;
+    max-width: 79.25rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.containernav{
+    
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    
+}
+
+.navlinks{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    
+    
+}
+
+.navlinks ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.navlinks ul li{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.navlinks ul li:hover{
+    background: #ECF39E;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.navlinks ul li a{
+    text-decoration: none;
+    color: var(--navlinks);   
+}
+
+
+
+/* ------- RECIPES ------- */
+
+.recipes{
+    background: #f8f8f8;
+    position: relative;
+}
+
+.containerrecipes{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    z-index: 9;
+}
+
+.containerrecipes h1{
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.recipesbox{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+
+.recipesbox a{
+    color: white;
+    text-shadow: 2px 0px 2px black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.box{
+    height: 300px;
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0 grey;
+    z-index: 99;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease;
+}
+
+.box:nth-child(1):hover,
+.box:nth-child(2):hover,
+.box:nth-child(3):hover{
+    box-shadow: 0px -20px 40px 0 grey;
+}
+
+.box:nth-child(4):hover,
+.box:nth-child(5):hover,
+.box:nth-child(6):hover{
+    box-shadow: 0px 30px 40px 0 grey;
+}
+
+.box1{
+    background-image: url('../IMG/idli.png');
+    background-size: cover;
+}
+
+.box2{
+    background-image: url(../IMG/lunch.png) ;
+    background-size: cover;
+}
+
+.box3{
+    background-image: url(../IMG/dinner.jpeg);
+    background-size: cover;
+}
+
+.box4{
+    background-image: url(../IMG/snacks.jpg);
+    background-size: cover;
+}
+
+.box5{
+    background-image: url(../IMG/sweets.jpg);
+    background-size: cover;
+}
+
+.box6{
+    background-image: url(../IMG/healthy.jpeg);
+    background-size: cover;
+}
+
+
+
+/* ------- ABOUT ------- */
+
+.about{
+    height: 100vh;
+    background: #f8f8f8;
+    box-shadow:0 -2px 40px 0  black;
+    background-color:#31572C;
+    
+}
