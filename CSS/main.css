@@ -173,14 +173,19 @@ body{
     background-size: cover;
 }
 
-
-
 /* ------- ABOUT ------- */
 
 .about{
+    width: 100%;
     height: 100vh;
-    background: #f8f8f8;
-    box-shadow:0 -2px 40px 0  black;
-    background-color:#31572C;
-    
+    background-color:#eb7e36;
+}
+
+.abouttext{
+    background-color: #f8f8f8 ;
+    padding: 50px;
+    font-size: 1.7rem;
+    text-decoration: solid;
+    border-radius: 0 0 50px 50px;
+    text-align: justify;
 }
